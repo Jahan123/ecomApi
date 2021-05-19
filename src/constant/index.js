@@ -1,0 +1,21 @@
+import { config } from "dotenv";
+
+config();
+export const PORT = process.env.PORT;
+export const MONGOOSE_PATH = process.env.MONGOOSE_PATH;
+export const APP_DOMAIN = process.env.APP_DOMAIN;
+export const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
+export const TOKEN_SECRET_KEY = process.env.TOKEN_SECRET_KEY;
+export const REFRESH_SECRET_KEY = process.env.REFRESH_SECRET_KEY;
+export const GOOGLE_AUTH_CLIENT_ID = process.env.GOOGLE_AUTH_CLIENT_ID;
+export const GOOGLE_AUTH_CLIENT_SECRET = process.env.GOOGLE_AUTH_CLIENT_SECRET;
+export const FALLBACK_URL = process.env.FALLBACK_URL;
+export const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
+export const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
+export const GITHUB_SUCCESS_URL = process.env.GITHUB_SUCCESS_URL;
+export const ACCOUNT_SID = process.env.ACCOUNT_SID;
+export const ACCOUNT_SECRET = process.env.ACCOUNT_SECRET;
+export const TWILIO_PHONE_NUMBER = process.env.TWILIO_PHONE_NUMBER;
+export const CLOUD_API_KEY = process.env.CLOUD_API_KEY;
+export const CLOUD_API_NAME = process.env.CLOUD_API_NAME;
+export const CLOUD_API_SECRET = process.env.CLOUD_API_SECRET;
